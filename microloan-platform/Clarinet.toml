@@ -9,6 +9,14 @@ requirements = []
 path = "contracts/microloan.clar"
 depends_on = []
 
+[contracts.loan-insurance]
+path = "contracts/loan-insurance.clar"
+depends_on = []
+
+[contracts.loan-rating]
+path = "contracts/loan-rating.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
